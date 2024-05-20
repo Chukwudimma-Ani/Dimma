@@ -3,7 +3,7 @@
   <a href="https://chukwudimma.vercel.app/" target="_blank">Chukwudimma</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="main/readmeImg%20(2).png" />
+  <img alt="Demo" src="readmeImg%20(2).png" />
 </div>
 
 <br/>
