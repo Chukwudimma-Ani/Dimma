@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+
+import homeLogo from "../../Assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -14,7 +15,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={7} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -52,10 +53,18 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={5} className="myAvtar" style={{ paddingBottom: 20 }}>
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+              <img
+                src={homeLogo}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+               </Tilt>
+          
+              
+           
           </Col>
         </Row>
         <Row>
@@ -67,7 +76,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Chukwudimma-ani"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/Chukwudimma-ani"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +96,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/Chukwudimma-ani-675395213?"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +106,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/Chukwudimma_"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
