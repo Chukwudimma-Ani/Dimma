@@ -1,15 +1,18 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(12, 10, 22, 0.863),
+
+   rgba(12, 10, 22, 0.863),
     rgba(160, 10, 10, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(12, 10, 22, 0.863) 
   );
   
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(160, 10, 10, 0.678),
-    rgba(12, 10, 22, 0.863)
+    
+
+     rgba(160, 10, 10, 0.678),
+    rgba(12, 10, 22, 0.863) 
   );
 
   --imp-text-color: #c770f0;
