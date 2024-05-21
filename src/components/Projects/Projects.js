@@ -37,7 +37,7 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="MyPOrtfolio"
+              title="MyPortfolio"
               description="My personal portfolio  which features 
               some of my github projects as well as my resume and technical skills.
               This project was built using these technologies.
