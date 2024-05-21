@@ -24,9 +24,12 @@ function Projects() {
               imgPath={portImg}
               isBlog={false}
               title="NYSC webpage_lookalike"
-              description=" ####."
-              ghLink="#"
-               demoLink="#"      //<--------Please include a demo link here 
+              description=" its alookalike for the NYSC webpage for youth corpers, one of 
+              the first project i did."
+              ghLink="https://github.com/Chukwudimma-Ani/Remake-of-NYSC-homePage"
+               demoLink="https://chukwudimma-ani.github.io/Remake-of-NYSC-homePage/" 
+              //  Example of works
+                   //<--------Please include a demo link here 
             />
           </Col>
           
@@ -35,9 +38,12 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="MyPOrtfolio"
-              description=" ####."
-              ghLink="#"
-               demoLink="#"      //<--------Please include a demo link here 
+              description="My personal portfolio  which features 
+              some of my github projects as well as my resume and technical skills.
+              This project was built using these technologies.
+              React.js, Node.js, Express.js, CSS3,VsCode, Vercel"
+              ghLink="https://github.com/Chukwudimma-Ani/Dimma"
+               demoLink="https://chukwudimma.vercel.app/"      //<--------Please include a demo link here 
             />
           </Col>
         </Row>
