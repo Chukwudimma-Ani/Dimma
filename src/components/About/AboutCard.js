@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
+
 function AboutCard() {
   return (
     <Card className="quote-card-view">
@@ -11,11 +12,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Chukwudimma Ani </span>
             from <span className="purple">  Lagos, Nigeria.</span>
             <br />
-            
-            <br />
             I have completed BSc in Marketing at ESUT Nigeria.
-            <br />
-            <br />
             Apart from coding, some other activities that I love to do!
             <br />
             
@@ -31,14 +28,14 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-          <p><br />Fun Fact About Me:<br />
-            <br />
+          <p>Fun Fact About Me:<br />
+            
             I speak 2 languages Fluently and ich spreche ein bissen Deutsch aber ich lerne auch Deutsch
-            <br /></p>
+            </p>
           <p style={{ color: "rgb(155 126 172)" }}>
             "Mgbe Onye ji teeta Ula !"{" "}
           </p>
-          <footer className="blockquote-footer">Chukwudimma</footer>
+          <footer className="blockquote-footer">Chukwudimma </footer>
         </blockquote>
       </Card.Body>
     </Card>
