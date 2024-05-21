@@ -30,12 +30,12 @@ function Home() {
                 <Type />
               </div>
             </Col>
-            <Col md={5}  style={{ paddingBottom: 20,  width:"550px", margin:"20px"}}>
+            <Col md={5}  style={{ paddingBottom: 20,  width:"550px"}}>
               <img
                 src={myImg}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "600px", background:"white", borderRadius:"50%", marginTop: 10 }}
+                style={{ maxHeight: "600px", background:"white", borderRadius:"50%", marginTop:20 }}
               />
             </Col>
 
@@ -47,5 +47,4 @@ function Home() {
     </section>
   );
 }
-
 export default Home;
