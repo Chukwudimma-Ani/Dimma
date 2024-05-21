@@ -35,7 +35,7 @@ function Home() {
                 src={myImg}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "600px", background:"white", borderRadius:"50%", marginTop: -30 }}
+                style={{ maxHeight: "600px", background:"white", borderRadius:"50%", marginTop:20 }}
               />
             </Col>
 
