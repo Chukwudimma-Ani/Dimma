@@ -10,6 +10,10 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
+  const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+  const d = new Date();
+  let name = month[d.getMonth()];
   return (
     <Container fluid className="footer">
       <Row>
@@ -17,7 +21,7 @@ function Footer() {
           <h3>Designed by Chukwudimma Ani</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} CA.</h3>
+          <h3>Copyright © {name, year} CA.</h3>
           <h3>Chiejina Akajona Ubosi</h3>
         </Col>
         <Col md="4" className="footer-body">
