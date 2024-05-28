@@ -14,6 +14,9 @@ function Footer() {
 
   const d = new Date();
   let name = month[d.getMonth()];
+
+  const d = new Date();
+  let day = d.getDay();
   return (
     <Container fluid className="footer">
       <Row>
@@ -21,7 +24,7 @@ function Footer() {
           <h3>Designed by Chukwudimma Ani</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {name}, { year} CA.</h3>
+          <h3>Copyright © {day}, {name}, { year} CA.</h3>
           <h3>Chiejina Akajona Ubosi</h3>
         </Col>
         <Col md="4" className="footer-body">
