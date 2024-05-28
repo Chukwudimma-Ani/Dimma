@@ -12,8 +12,8 @@ function Footer() {
   let year = date.getFullYear();
   const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
-  const d = new Date();
-  let name = month[d.getMonth()];
+  const de = new Date();
+  let name = month[de.getMonth()];
 
   const d = new Date();
   let day = d.getDay();
