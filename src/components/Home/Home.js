@@ -6,6 +6,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import myImg from "../../Assets/imgidy.png";
 
+
 function Home() {
   return (
     <section>
@@ -42,7 +43,7 @@ function Home() {
            
           </Row>
         </Container>
-      </Container>
+       </Container>
       <Home2 />
     </section>
   );
